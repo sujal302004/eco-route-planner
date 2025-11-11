@@ -1,110 +1,70 @@
-# Eco Route Planner
+# Getting Started with Create React App
 
-Eco Route Planner is a full-stack web application that helps users plan eco-friendly routes and track carbon savings. It is built using Node.js, Express, MongoDB, and React. The backend provides APIs for route management, user management, and environmental data, while the frontend offers an interactive user interface for viewing and managing routes.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Project Structure
+## Available Scripts
 
-This project contains the following main files and folders:
+In the project directory, you can run:
 
-- server.js or index.js: Main entry point for the backend server.
-- routes/: Contains all route files such as users.js, eco.js, and routes.js.
-- models/: Contains Mongoose schemas and models for MongoDB.
-- frontend/: React-based frontend application.
-- .env: Contains environment variables (not uploaded to GitHub for security).
+### `npm start`
 
-## Technologies Used
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-- Node.js  
-- Express.js  
-- MongoDB  
-- Mongoose  
-- React.js  
-- CORS  
-- Helmet  
-- Morgan  
-- Dotenv  
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-## Installation Steps
+### `npm test`
 
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/sujal302004/eco-route-planner.git
-Navigate into the project directory:
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
+### `npm run build`
 
-cd eco-route-planner
-Install dependencies for the backend:
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-npm install
-Navigate to the frontend folder and install dependencies:
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-cd frontend
-npm install
-Go back to the root folder and start the backend:
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
+### `npm run eject`
 
-npm start
-To run the frontend:
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-cd frontend
-npm start
-Environment Variables
-Create a .env file in the root directory and add the following variables:
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-MONGO_URI=your_mongodb_connection_string
-PORT=3001
-Project Features
-User registration and login
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-Eco-friendly route suggestions
+## Learn More
 
-Carbon savings calculation
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-Real-time tracking using map APIs
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-Secure data management using MongoDB and Mongoose
+### Code Splitting
 
-Optimized API structure with Express.js
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-Routes Included
-routes/routes.js: Main route handler for eco-friendly path calculations.
+### Analyzing the Bundle Size
 
-routes/users.js: Handles user authentication and profile management.
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-routes/eco.js: Handles environmental data and analytics.
+### Making a Progressive Web App
 
-API Endpoints
-Example API routes:
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
+### Advanced Configuration
 
-GET /api/routes
-POST /api/routes
-GET /api/users
-POST /api/users/register
-POST /api/users/login
-How to Run Using Docker (Optional)
-Ensure Docker and Docker Compose are installed.
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-Run the following command:
+### Deployment
 
-docker-compose up -d
-The backend will run on port 3001 and the frontend on port 3000.
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-Accessing the Application
-Frontend: http://localhost:3000
-Backend API: http://localhost:3001
+### `npm run build` fails to minify
 
-Author
-Developed by Sujal Kabra
-GitHub: https://github.com/sujal302004
-Email: sujalkabra30@gmail.com
-
-
-Datasets Used
-Eco Route Environmental Data (Harvard Dataverse)
-Link: https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/XYZ123
-
-Global CO₂ Emission and Routing Dataset (Zenodo)
-Link: https://zenodo.org/record/7890123
-
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
